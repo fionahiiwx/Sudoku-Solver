@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table>
-        <tbody id="grid">
-        </tbody>
-    </table>
-    <button onclick="solveSudoku()">Solve</button>
-    <p id="error"></p>
+    <h1>Sudoku Solver</h1>
+    <div id="table-container">
+        <table>
+            <tbody id="grid">
+            </tbody>
+        </table>
+    </div>
+    <div id="controls">
+        <button id="clearButton">Clear</button>
+        <button onclick="solveSudoku()">Solve</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
